@@ -1,0 +1,128 @@
+site_name: Documentation
+docs_dir: docs
+site_url: https://docs.e-infra.cz/
+extra_css:
+   - assets/css/extra.css?id=2018100501
+   - https://unpkg.com/mermaid@7.0.5/dist/mermaid.css
+
+extra_javascript:
+   - https://unpkg.com/mermaid@7.0.5/dist/mermaid.min.js
+   - assets/js/hotjar.js
+
+# Repository
+repo_name: Docs on GitHub
+repo_url: https://github.com/CESNET/eInfra-docs/
+edit_uri: edit/master/
+
+# Copyright
+copyright: Copyright &copy; 2021-2023 e-INFRA CZ
+
+extra:
+  generator: false
+  version: !ENV [SITE_VERSION, 'undef_build_number']
+  build_date: !ENV [SITE_BUILD_DATE, 'today']
+  site_title: e-INFRA CZ Documentation
+
+theme:
+  name: material
+  favicon: //www.e-infra.cz/file/8a46e25120eb50e33af28a8ff9df2850/282/favicon/logo-e-infra.svg
+  logo: assets/e-infra.png
+  custom_dir: e-infra_theme
+  language: 'en'
+
+  static_templates:
+    - 404.html
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.instant
+    - navigation.tracking
+    - toc.follow
+    - navigation.prune
+    - content.tooltips
+  icon:
+    logo: fontawesome/solid/book-open
+    repo: fontawesome/brands/github
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+  font:
+    text: 'Montserrat'
+    code: 'Source Code Pro'
+
+nav:
+  - Home: index.md
+  - e-Infra CZ Account: '!include ./topics/account/mkdocs.yml'
+  - Computing: ./compute/index.md
+  - Data storage: ./storage/index.md
+  - Software: ./software/index.md
+  - FAQs: ./faqs/index.md
+  - Contact: ./contact/index.md
+
+plugins:
+  - monorepo
+  - i18n:
+      default_language: en
+      material_alternate: true
+      languages:
+        en:
+          name: English
+          build: true
+        cs:
+          name: Česky
+          build: true
+      nav_translations:
+        cs:
+          e-INFRA CZ Account: Účet e-INFRA CZ
+          Data processing: Zpracování dat
+          Data Storage: Datova Úložiště
+          Managed Data Services: Spravované datové služby
+          General Information: Obecné informace
+          Account Management: Správa účtů
+  
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)'
+      lang:
+        - en
+  # - git-committers
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
+      type: date
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - codehilite
+  - pymdownx.snippets
+  - pymdownx.arithmatex:
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.details
+  - markdown.extensions.toc:
+      permalink: true
+      slugify: !!python/name:pymdownx.slugs.uslugify
+  - pymdownx.snippets:
+      base_path: snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - footnotes
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - meta
+  - tables
+
+#google_analytics:
+#  - 'UA-90498826-1'
+#  - 'auto'
