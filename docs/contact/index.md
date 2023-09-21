@@ -15,10 +15,28 @@ If you find any inconsistency or error, please contact [support](https://du.cesn
 ![USs-scheme](pic_001.png)
 
 
-Working days : from ... till
-Working hours: dtto
-24/7? yes/no
+Normal working days : from ... till
+
+Normal working hours: from ... till
+
+24/7?  ... yes/no
 
 
+**User support eInfra**
 
+- dela to a to
+- <support@e-infra.cz>
+- funguje nonstop
+- top level US, resi vsechno
+- pokud si nejste jisti ktere sluzby se vas dotaz tyka piste sem
+
+**User support MetaCentrum**
+
+- resi sluzby gridoveho pocitani, OnDemandu atd.
+- nefunguje nonstop
+- <meta@cesnet.cz>
+
+**User support sluzby XY**
+
+- ...
 

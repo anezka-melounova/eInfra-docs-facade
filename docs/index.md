@@ -10,13 +10,14 @@ hide:
 
 The home for documentation of all e-Infra CZ services that are provided to scientific community in the Czech Republic.
 
-[e-INFRA CZ]( https://du.cesnet.cz/en/start) is a unique research and development e-infrastructure in the Czech Republic,
+[e-INFRA CZ]( https://du.cesnet.cz/en/start) is a research and development e-infrastructure in the Czech Republic,
 which provides capacities and resources for the transmission, storage, and processing of scientific and research data.
 
-The project, realized between 01/2020 and 12/2022, was declared by the Ministry of Education, Youth and Sports
-in accordance with the Road Map of the Czech Republic for Large Infrastructures for Research, Experimental Development and Innovations.
+<!--The project, realized between 01/2020 and 12/2022, was declared by the Ministry of Education, Youth and Sports
+in accordance with the Road Map of the Czech Republic for Large Infrastructures for Research, Experimental Development and Innovations.-->
+<!-- Fakt nase uzivatele zajima nejake MSMT? Anebo tam tenhle odstavec MUSI byt z politickych duvodu? Pokud nemusi, z uzivatelskeho hlediska je to slovni vata, pryc s tim.-->
 
-e-INFRA CZ interconnects all three national e-infrastructures in the Czech Republic – [CESNET](https://www.cesnet.cz/?lang=en), [CERIT-SC](https://www.cerit-sc.cz/), and [IT4Innovations](https://www.it4i.cz/en).
+e-INFRA CZ is an integration of three Czech e-infrastructures – [CESNET](https://www.cesnet.cz/?lang=en), [CERIT-SC](https://www.cerit-sc.cz/), and [IT4Innovations](https://www.it4i.cz/en).
 
 <!-- # e-INFRA CZ Data Services -->
 
@@ -38,7 +39,7 @@ e-INFRA CZ interconnects all three national e-infrastructures in the Czech Repub
 
     ---
 
-    Focus on what's important, your research can be accelerated with our **[Large infrastructures](./compute/large-infrastructures):**
+    Focus on what's important, your research can be accelerated with our **[Large infrastructures](./compute/#large-infrastructures):**
     
     [:octicons-arrow-right-24: Grid computing](./compute/grid)   
     [:octicons-arrow-right-24: Cloud](./compute/openstack/)   
@@ -60,11 +61,11 @@ e-INFRA CZ interconnects all three national e-infrastructures in the Czech Repub
 
     ---
 
-    Wanna start by searching the services for particular software? 
+    Maybe you will select a service based on whether it offers **a particular software**. 
 
-    [:octicons-arrow-right-24: List A](./software/list_a)   
-    [:octicons-arrow-right-24: List B](./software/list_b)   
-    [:octicons-arrow-right-24: More...](./software/)   
+    [:octicons-arrow-right-24: Alphabetically listed software](./software/list_a)   
+    [:octicons-arrow-right-24: Software and services listed by field of interest](./software/list_b)   
+    [:octicons-arrow-right-24: Installing your own software](./software#install-your-own-software)   
 
 -   [:fontawesome-solid-floppy-disk:{ .lg .middle } __FAQs__](./faqs)
 
