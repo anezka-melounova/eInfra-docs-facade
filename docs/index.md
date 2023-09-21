@@ -38,17 +38,14 @@ e-INFRA CZ interconnects all three national e-infrastructures in the Czech Repub
 
     ---
 
-    Focus on what's important, your research can be accelerated with our big servers.
+    Focus on what's important, your research can be accelerated with our **[Large infrastructures](./compute/large-infrastructures):**
     
-    **General infrastructures:<br/>**
     [:octicons-arrow-right-24: Grid computing](./compute/grid)   
     [:octicons-arrow-right-24: Cloud](./compute/openstack/)   
     [:octicons-arrow-right-24: Supercomputing](./compute/supercomputing/)   
-    [:octicons-arrow-right-24: Containers Cloud](./compute/kubernetes/)   
-    **Specialized services:<br/>**
-    [:octicons-arrow-right-24: Sensitive data processing](./compute/sensitive/)   
-    [:octicons-arrow-right-24: Galaxy server](./compute/galaxy/)   
-    [:octicons-arrow-right-24: OnDemand service](./compute/ondemand/)   
+    [:octicons-arrow-right-24: Containers Cloud](./compute/kubernetes/) 
+
+    Do you search for something more specific? Browse through our **[Specialized services](./compute/#specialized-services)**.
 
 -   [:fontawesome-solid-floppy-disk:{ .lg .middle } __Data storage__](./storage)
 

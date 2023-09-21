@@ -123,6 +123,3 @@ markdown_extensions:
   - meta
   - tables
 
-#google_analytics:
-#  - 'UA-90498826-1'
-#  - 'auto'
